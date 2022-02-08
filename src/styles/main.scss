@@ -1,0 +1,23 @@
+$fa-font-path: "@fortawesome/fontawesome-free/webfonts" !default;
+
+@import "@fortawesome/fontawesome-free/scss/fontawesome";
+@import "@fortawesome/fontawesome-free/scss/brands";
+@import "@fortawesome/fontawesome-free/scss/solid";
+@import "@fortawesome/fontawesome-free/scss/regular";
+@import "highlight.js/scss/monokai-sublime";
+@import "normalize.css/normalize.css";
+
+@import "variables";
+@import "helpers";
+@import "mixins";
+
+html,
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: "Work Sans", Helvetica, Arial, sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
